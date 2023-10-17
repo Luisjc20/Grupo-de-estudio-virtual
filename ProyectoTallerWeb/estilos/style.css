@@ -1,0 +1,56 @@
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-nav.flex-column {
+    padding: 20px; /* Agrega espacio entre los elementos de navegación */
+  }
+  
+  .nav-item {
+    margin-bottom: 10px; /* Agrega espacio entre los elementos de la lista */
+  }
+  
+  .nav-link {
+    display: block; /* Hace que los enlaces ocupen todo el ancho del contenedor */
+  }
+  
